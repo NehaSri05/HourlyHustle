@@ -15,13 +15,17 @@ block content
             span.glyphicon.glyphicon-star
             span.glyphicon.glyphicon-star-empty
             span.glyphicon.glyphicon-star-empty
-          p Medipally Hyderabad, on Main Road,  beside Aruna Studios, Srinvas Nagar Colony
+          p Medipally Hyderabad, on Main Road, beside Aruna Studios, Srinvas Nagar Colony
+
+          // Opening hours panel
           .panel.panel-primary
             .panel-heading
               h2.panel-title Opening hours
             .panel-body
-              p Monday - Sunday : 9:00am - 10:00pm
-              p Saturday : 8:00am - 12:00pm
+              p Monday - Friday : 9:00am - 10:00pm
+              p Saturday - Sunday : 8:00am - 12:00pm
+
+          // Facilities panel
           .panel.panel-primary
             .panel-heading
               h2.panel-title Facilities
@@ -32,19 +36,45 @@ block content
               | &nbsp;
               span.label.label-warning
                 span.glyphicon.glyphicon-ok
-                | &nbsp;Paid TimeOff
+                | &nbsp;Paid Time Off
               | &nbsp;
               span.label.label-warning
                 span.glyphicon.glyphicon-ok
                 | &nbsp;DMart Employee Discounts
               | &nbsp;
+
         .col-xs-12.col-sm-6.location-map
           .panel.panel-primary
             .panel-heading
               h2.panel-title Location map
             .panel-body
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.6773181622643!2d78.60007627493528!3d17.40954048348147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9f9bb0b21bbb%3A0x6afa2bc77087b571!2sDMart%20Medipally!5e1!3m2!1sen!2sin!4v1727367170298!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3618.6773181622643!2d78.60007627493528!3d17.40954048348147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9f9bb0b21bbb%3A0x6afa2bc77087b571!2sDMart%20Medipally!5e1!3m2!1sen!2sin!4v1727367170298!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          // Timespan and Salary panel for DMart shifts
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Timespan & Salary
+            .panel-body
+              // Morning Shift
+              h4 Morning (8:00am - 12:00pm)
+              p Duration : 6 months
+              p Salary: ₹14,000 per month
+
+              // Afternoon Shift
+              h4 Afternoon (12:00pm - 4:00pm)
+              p Duration : 6 months
+              p Salary: ₹16,000 per month
+
+              // Evening Shift
+              h4 Evening (4:00pm - 8:00pm)
+              p Duration : 4 months
+              p Salary: ₹12,000 per month
+
+              // Night Shift
+              h4 Night (8:00pm - 12:00am)
+              p Duration : 3 months
+              p Salary: ₹18,000 per month
+              
+      // Customer reviews section
       .row
         .col-xs-12
           .panel.panel-primary.review-panel
@@ -74,8 +104,9 @@ block content
                       span.glyphicon.glyphicon-star
                       span.glyphicon.glyphicon-star-empty
                       span.glyphicon.glyphicon-star-empty
-                    span.reviewAuthor simon
+                    span.reviewAuthor Simon
                     small.reviewTimestamp 25 June 2013
                   .col-xs-12
                     p It was okay. But the communication between the staff is not good.
+
     .col-xs-12.col-md-3

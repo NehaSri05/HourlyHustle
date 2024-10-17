@@ -305,8 +305,8 @@ body {
   font-family: "Cabin", Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #ffffff;
-  background-color: #108a93;
+  color: #1b2c4c;
+  background-color: #babdbd;;
 }
 
 input,
@@ -1032,7 +1032,7 @@ pre code {
     width: 41.66666666666667%;
   }
   .col-sm-6 {
-    width: 50%;
+    width: 65%;
   }
   .col-sm-7 {
     width: 58.333333333333336%;
@@ -4699,7 +4699,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #ad1d28;
+  background-color: #213251;
   border-color: #911821;
 }
 
@@ -5214,7 +5214,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .label-warning {
-  background-color: #debb27;
+  background-color: #85837f;
 }
 
 .label-warning[href]:hover,
@@ -5233,18 +5233,19 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .badge {
   display: inline-block;
-  min-width: 10px;
-  padding: 3px 7px;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1;
-  color: #ffffff;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  background-color: #ad1d28;
-  border-radius: 10px;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #666465;
+    border-radius: 10px;
 }
+
 
 .badge:empty {
   display: none;
@@ -5672,7 +5673,7 @@ a.list-group-item:focus {
 
 .panel {
   margin-bottom: 20px;
-  background-color: #13a0aa;
+  background-color:#9da3a3;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -5837,7 +5838,7 @@ a.list-group-item:focus {
 
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #ad1d28;
+  background-color: #213251;
   border-color: #ad1d28;
 }
 
@@ -5925,7 +5926,7 @@ a.list-group-item:focus {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #0d747c;
+  background-color: #b7bbbb;
   border: 1px solid #0a565c;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -7323,7 +7324,7 @@ legend {
 }
 
 .list-group-item {
-  background-color: #13a0aa;
+  background-color: #9da3a3;
 }
 
 .popover {
